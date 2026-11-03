@@ -18,4 +18,4 @@ const Produto = database.define('produto', {
     descricao: Sequelize.STRING
 })
 
-GPUShaderModule.exports = Produuto;
+module.exports = Produto;

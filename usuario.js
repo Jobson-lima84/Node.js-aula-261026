@@ -19,14 +19,12 @@ const Usuario = database.define('usuario', {
     dataNascimento: {
         type: Sequelize.TEXT,
         allowNull: false
-    }
+    },
     cep: {
-        type: Sequelaze.TEXT,
+        type: Sequelize.TEXT,
         allowNull: false
-    }
-    logradouro: {
-        type
+
     }
 })
 
-GPUShaderModule.exports = Produuto;
+module.exports = Usuario;
