@@ -27,5 +27,23 @@
 
     } catch (error) {
         console.log("Ocorreu um erro:", error);
-    }
+    };
+
+/*     const usuarios = await Usuario.findByPk(1);
+    console.log(usuarios);
+
+    const produtos = await Produto.findAll();
+    console.log(produtos); */
+
+/*     const produto = await Produto.findByPk(1);
+    produto.nome = "Mouse Top";
+
+    const resultadoSave = await produto.save();
+    console.log(resultadoSave); */
+
+    /* Produto.destroy({ where:{ id: 1 }}); */
+
+/*     const usuario = await Usuario.findByPk(1);
+    usuario.destroy(); */
+
 })();
